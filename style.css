@@ -1,0 +1,178 @@
+/* Header Formats */
+
+header {
+	text-align: center;
+	background: url(http://harbr.co/wp-content/uploads/2013/11/Kinfolk_Table-Deconstruction_v3-03-27-12_03.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 50px;
+}
+
+header img {
+	border-radius: 0%;
+	border: 3px solid #FFFFFF;
+	padding: 10px;
+	margin: 100px 10px 10px 10px;
+
+}
+
+.padded {
+	padding: 50px 100px;
+	background-color: white;
+}
+
+.padded h2 {
+	color: #38A88F;
+}
+
+/* Menu Formats */
+
+.menu {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #000;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+ul.menu {
+	list-style:none; 
+	margin:0; 
+	padding:0;
+	left: 0px;
+	top: 0px;
+	position: fixed;
+}
+
+ul.menu * {
+	margin:0; 
+	padding:0;
+}
+
+ul.menu a {
+	display:block; 
+	color:#fff; 
+	text-decoration:none;
+}
+
+ul.menu li {
+	position:relative; 
+	float:left; 
+	margin-right:2px;
+}
+
+/* 'top' controls how high the "Home" goes */
+ul.menu ul {
+	position:absolute; 
+	top:38px; 
+	left:0; 
+	display:none; 
+	opacity:0; 
+	list-style:none;
+}
+
+ul.menu ul li {
+	position:relative; 
+	border-top:none;
+	width:170px; 
+	margin:0;
+}
+
+ul.menu ul li a {
+	display:block; 
+	padding:3px 7px 5px; 
+	background-color: #000;
+}
+
+ul.menu ul li a:hover {
+}
+
+ul.menu ul ul {
+	left:170px; 
+	top:-1px;
+}
+
+/* Controls "MENU" */
+ul.menu .menulink {
+	padding:5px 7px 7px 10px; 
+	font-weight:bold; 
+	width:160px;
+}
+
+/* Body Formats */
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	background:#eee;
+	overflow: scroll;
+	width: 100%;
+	margin: 0;	
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 0;
+  font-family: 'Oxygen', sans-serif;
+  padding:50px 10px 25px 10px;
+}
+
+h1 span {
+  background-color:#000;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+p, ul, ol {
+  line-height: 1.5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Content Formatting */
+.text {
+	text-align: center;
+}
+
+.credits {
+	background: #666666;
+	text-align: center;
+	color: gray;
+	background: url(https://files.nyu.edu/cd1646/public/dark_embroidery.png);
+}
+
+.credits h2 {
+	color: white;
+}
+
+.credits img {
+	border-radius: 50%;
+	width: 100px;
+	margin: 10px;
+}
+
+.credits img:hover {
+	opacity: 0.5;
+}
+
+/* Background Video */
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(zagat.jpg) no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+
+video {
+	display: block;
+}

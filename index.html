@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<title>Eat the City: An Interactive Guide to Eating in the Big Apple</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href='http://fonts.googleapis.com/css?family=Oxygen:700,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="eatthecity/style.css" type="text/css" />
+<script type="text/javascript" src="eatthecity/script.js"></script>
+</head>
+
+<body>
+<ul class="menu" id="menu">
+<!-- Menu -->
+	<li>
+<!-- Menu Three Bar Icon -->
+        <a href="#" class="menulink">Menu</a>
+		<ul>
+<!-- Home -->
+			<li><a href="index.html">Home</a></li>
+<!-- About -->
+			<li><a href="about.html">About</a></li>
+<!-- Data Analysis -->
+			<li><a href="analysis.html" class="sub">Data Analysis</a></li>
+<!-- Restaurant Map -->
+			<li><a href="map.html" class="sub">Restaurant Map</a></li>
+<!-- Data Sources -->
+			<li><a href="sources.html" class="sub">DATA SOURCES</a></li>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<!-- Content -->
+<div id="text" style="clear:left; margin-top:350px">
+	<h1><span>EAT THE CITY:<br>
+		The Foodie's Guide to Eating Safely in the Big Apple</span></h1>
+</div>
+
+<!-- Video Background -->
+<video autoplay loop poster="zagat.jpg" id="bgvid">
+<source src="zagat.mp4" type="video/mp4">
+</video>
+  <!--[if lt IE 9]>
+<script>
+document.createElement('video');
+</script>
+<![endif]-->
+
+<!-- Javascript -->
+<script type="text/javascript">
+	var menu=new menu.dd("menu");
+	menu.init("menu","menuhover");
+</script>
+
+</body>
+</html>
